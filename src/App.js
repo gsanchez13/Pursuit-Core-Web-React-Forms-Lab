@@ -4,12 +4,17 @@ import './App.css';
 class App extends React.Component {
   constructor() {
     super();
+    this.initialState = {
+
+    }
   }
   render () {
     return (
       <div className="App">
         <h1>Enter each number in the array, separated by a ',' </h1>
-        <form><select>
+        <form>
+          <input type="text"></input>
+          <select>
           <option></option>
           <option>sum</option>
           <option>average</option>
